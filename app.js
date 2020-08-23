@@ -25,12 +25,20 @@ const enableScroll = () => {
 
 const openSideNav = () => {
   disableScroll();
-  document.getElementById("back-drop").style.display = "block";
+  document.getElementById("side-nav").classList.add("openSideNav");
   document.getElementById("side-nav").style.display = "flex";
+  document.getElementById("back-drop").style.display = "block";
+  setTimeout(() => {
+    document.getElementById("side-nav").classList.remove("openSideNav");
+  }, 500);
 };
 
 const closeSideNav = () => {
-  enableScroll();
-  document.getElementById("back-drop").style.display = null;
-  document.getElementById("side-nav").style.display = "none";
+  document.getElementById("side-nav").classList.add("closeSideNav");
+  setTimeout(() => {
+    enableScroll();
+    document.getElementById("side-nav").classList.remove("closeSideNav");
+    document.getElementById("back-drop").style.display = null;
+    document.getElementById("side-nav").style.display = "none";
+  }, 500);
 };
