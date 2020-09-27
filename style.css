@@ -479,8 +479,9 @@ footer h6 {
 }
 
 .hero-section .hero-image {
-  max-width: 450px;
+  max-width: 400px;
   width: 100%;
+  margin: 0 auto 0 auto;
 }
 
 .hero-section .hero-image img {
@@ -490,6 +491,7 @@ footer h6 {
 .hero-section .hero-details {
   max-width: 600px;
   width: 100%;
+  margin: 0 0 0 20px;
 }
 
 .hero-section .hero-details h4 {

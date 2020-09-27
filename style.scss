@@ -192,7 +192,7 @@ nav {
   }
 }
 
-// Start of custom styling for Hom page
+// Start of custom styling for Home page
 header {
   display: flex;
   flex-direction: column;
@@ -414,8 +414,9 @@ footer {
   justify-content: space-between;
 
   .hero-image {
-    max-width: 450px;
+    max-width: 400px;
     width: 100%;
+    margin: 0 auto 0 auto; 
 
     img {
       width: 100%;
@@ -425,6 +426,7 @@ footer {
   .hero-details {
     max-width: 600px;
     width: 100%;
+    margin: 0 0 0 20px;
 
     h4 {
       margin: 20px 0;
