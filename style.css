@@ -236,6 +236,7 @@ header .mouse-svg {
   background: #fff;
   border-radius: 10px;
   width: 100%;
+  overflow: hidden;
 }
 #boxes .box-image {
   display: block;
