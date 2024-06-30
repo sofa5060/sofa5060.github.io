@@ -374,6 +374,9 @@ footer h6 {
   max-width: 400px;
   width: 100%;
   margin: 0 auto 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 100%;
 }
 .hero-section .hero-image img {
   width: 100%;
