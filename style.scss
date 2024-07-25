@@ -446,8 +446,8 @@ footer {
   }
 
   @include tablet {
-    flex-direction: column;
     text-align: start;
+    flex-direction: column;
 
     .hero-image {
       max-width: 280px;

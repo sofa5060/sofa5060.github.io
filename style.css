@@ -398,8 +398,8 @@ footer h6 {
 }
 @media (max-width: 600px) {
   .hero-section {
-    flex-direction: column;
     text-align: start;
+    flex-direction: column;
   }
   .hero-section .hero-image {
     max-width: 280px;

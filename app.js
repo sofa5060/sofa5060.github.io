@@ -30,7 +30,7 @@ const openSideNav = () => {
   document.getElementById("back-drop").style.display = "block";
   setTimeout(() => {
     document.getElementById("side-nav").classList.remove("openSideNav");
-  }, 500);
+  }, 300);
 };
 
 const closeSideNav = () => {
@@ -40,5 +40,5 @@ const closeSideNav = () => {
     document.getElementById("side-nav").classList.remove("closeSideNav");
     document.getElementById("back-drop").style.display = null;
     document.getElementById("side-nav").style.display = "none";
-  }, 500);
+  }, 300);
 };
